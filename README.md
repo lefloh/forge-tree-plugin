@@ -8,6 +8,10 @@ Installation
 
 Install and start jboss forge. In the forge shell type:
 
+	forge install-plugin tree
+
+or
+
 	forge git-plugin git://github.com/lefloh/forge-tree-plugin.git
 	
 Notes
