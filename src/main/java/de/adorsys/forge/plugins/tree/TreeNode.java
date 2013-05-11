@@ -40,16 +40,11 @@ public class TreeNode implements Serializable {
 	
 	private static final String SPACE = "    ";
 	
-	private static final String LINE_AND_SPACE = "|   "; 
+	private static final String LINE_AND_SPACE = "\u2503   "; 
 
-	private static final String FILE = "+-- ";
+	private static final String FILE = "\u2523\u2501\u2501 ";
 
-	private static final String TAIL = "`-- "; 
-
-	// TODO check why Unicode is not working
-	// LINE_AND_SPACE = "\u2503   "
-	// FILE = "\u2523\u2501\u2501 "
-	// TAIL = "\u2517\u2501\u2501 "
+	private static final String TAIL = "\u2517\u2501\u2501 "; 
 	
 	private File file;
     
