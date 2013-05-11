@@ -46,7 +46,8 @@ public class TreeNode implements Serializable {
 
 	private static final String TAIL = "`-- "; 
 
-	// TODO check why Unicode is not working
+	// TODO UTF-8 Chars should be used with Forge 1.3.0.Final
+	// https://issues.jboss.org/browse/FORGE-895
 	// LINE_AND_SPACE = "\u2503   "
 	// FILE = "\u2523\u2501\u2501 "
 	// TAIL = "\u2517\u2501\u2501 "
